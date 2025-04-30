@@ -1,0 +1,13 @@
+# {{.Month}} {{.Year}}
+
+[[{{.Year}}]] · [[Q{{.Quarter}} {{.Year}}]] · ← [[{{.PrevMonth}} {{.PrevYear}}]] · [[{{.NextMonth}} {{.NextYear}}]] →
+{{range .Weeks}}Week {{.WeekNum}} — {{range .Days}}[[{{.Day}} {{$.Month}} {{$.Year}}]]{{if not .IsLast}} · {{end}}{{end}}
+{{end}}
+## Goals
+- [ ]
+
+## Highlights
+-
+
+- - -
+#{{.Year}}/Q{{.Quarter}}/{{.Month}}

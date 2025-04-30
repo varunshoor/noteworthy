@@ -1,0 +1,11 @@
+{{range .Events}}### {{.StartTime}} → {{.EndTime}} — {{.Title}}
+- Attendees: {{.Attendees}}
+- Location: {{.Location}}
+- Description: {{.Description}}
+
+{{if .Notes}}
+#### Notes
+{{.Notes}}
+{{end}}
+
+{{end}}
