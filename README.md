@@ -5,6 +5,10 @@ Google Calendar etc.
 
 ## Goals
 
+- [ ] Implement Forever Notes in Bear
+- [ ] Sync Bear Notes to a Hugo Blog
+- [ ] Google Calendar Integration with Forever Notes
+
 ### Forever Notes
 
 - In contents tags enclosed in `<>` should be replaced with their respective values
@@ -119,3 +123,8 @@ Week <#> — [[<DATE> <MONTH> <YEAR>]] · [[<DATE> <MONTH> <YEAR>]] · [[<DATE> 
 - [X Call CLI](https://github.com/martinfinke/xcall)
 - [X Call Implementation Example](https://github.com/bjacobel/bear-cli/blob/88cf6685813034a0a85570330ffa389650979a44/xcall/xcall.go)
 - [Bear SQLite Go Example](https://github.com/ruivieira/grizzly/blob/ef6702bf282d56459640b46cb6a13f32a92bb4f3/libgrizzly.go)
+- [Alfred Bear Integration](https://github.com/drgrib/alfred-bear)
+  - Contains latest SQL lite structure implementation
+- [Bear Hugo Integration](https://github.com/Zach-Johnson/bhugo)
+- [Bear MCP Server](https://github.com/akseyh/bear-mcp-server)
+  - TypeScript based, can be useful for SQL structure
