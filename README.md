@@ -111,3 +111,11 @@ Week <#> — [[<DATE> <MONTH> <YEAR>]] · [[<DATE> <MONTH> <YEAR>]] · [[<DATE> 
 - - -
 #<YEAR>/Q<#>/<MONTH>/<DATE>
 ```
+
+## Resources
+
+- [Forever Notes](https://www.myforevernotes.com/docs/overview)
+- [Bear Callback Documentation](https://bear.app/faq/x-callback-url-scheme-documentation/)
+- [X Call CLI](https://github.com/martinfinke/xcall)
+- [X Call Implementation Example](https://github.com/bjacobel/bear-cli/blob/88cf6685813034a0a85570330ffa389650979a44/xcall/xcall.go)
+- [Bear SQLite Go Example](https://github.com/ruivieira/grizzly/blob/ef6702bf282d56459640b46cb6a13f32a92bb4f3/libgrizzly.go)
